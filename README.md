@@ -1,1 +1,0 @@
-# satkosb.github.io
