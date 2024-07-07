@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+  <link rel="stylesheet" href="styles/bootstrap-material-design.min.css">
+  <link rel="stylesheet" href="styles/main.css">
+  <title>Workout Planner</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-dark fixed-top">
+    <a class="navbar-brand" href="/Workout Planner/public/home.html">Workout Planner</a>
+  </nav>
+
+  <div id="subTitle" class="container page-container navbar navbar-dark">
+    <div class="navbar-brand" id="pageName">Home</div>
+  </div>
+
+  <div id="homePage" class="container page-container">
+
+  </div>
+
+  <div id="TodaysWorkout" class="container page-container">
+    <div class="jumbotron">
+      <h1 id="dateLabel" class="display-4">Today's Date</h1>
+      <hr class="my-4">
+      <p class="lead">Click to view next workout</p>
+    </div>
+  </div>
+
+  <div id="workoutStreak" class="container streakContainer">
+    <div class="jumbotron">
+      <h1 class="display-4">My Current Streak</h1>
+      <hr class="my-4">
+      <p id="streakText" class="lead">You've Completed Your Last <br> Loading <br> Workouts</p>
+    </div>
+  </div>
+  <div id="menu-buttons" class="container">
+    <button id="myPlansbtn" type="button" class="btn">
+      My Workout Plans
+    </button>
+    <hr>
+    <button id="logbtn" type="button" class="btn">
+      Upcoming Workouts
+    </button>
+    <hr>
+    <button id="prevbtn" type="button" class="btn">
+      Previous Workouts
+    </button>
+    <hr>
+
+    <button id="mapbtn" type="button" class="btn">
+      Map
+    </button>
+    <hr>
+    
+    <button id="signbtn" type="button" class="btn">
+      Sign Out
+    </button>
+    <!-- <button id="settingsbtn" type="button" class="btn">
+      My Account
+    </button> -->
+    <hr>
+  </div>
+
+
+  <script src="scripts/jquery.min.js"></script>
+  <script src="scripts/popper.js"></script>
+  <script src="scripts/bootstrap-material-design.js"></script>
+  <script>$("body").bootstrapMaterialDesign();</script>
+  <script src="/__/firebase/7.18.0/firebase-app.js"></script>
+  <script src="/__/firebase/7.18.0/firebase-analytics.js"></script>
+  <script src="/__/firebase/7.18.0/firebase-firestore.js"></script>
+  <script src="/__/firebase/7.18.0/firebase-auth.js"></script>
+  <script src="/__/firebase/init.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/ui/4.6.1/firebase-ui-auth.js"></script>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
