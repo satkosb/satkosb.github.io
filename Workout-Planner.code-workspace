@@ -1,0 +1,43 @@
+{
+	"folders": [
+		{
+			"name": "Workout-Planner",
+			"path": "../../../280Project/Workout-Planner"
+		},
+		{
+			"name": "spring-2022-2023-personal-repo-ol1-satkosb",
+			"path": "../../../CSSE280/spring-2022-2023-personal-repo-ol1-satkosb"
+		},
+		{
+			"name": "CSSE332",
+			"path": "../../../CSSE332"
+		},
+		{
+			"name": "xv6-riscv-public",
+			"path": "../../../xv6-riscv-public"
+		},
+		{
+			"name": "EvolutionProject",
+			"path": "../../../EvolutionProject"
+		},
+		{
+			"name": "Spaceman",
+			"path": "../../../Downloads/Spaceman"
+		},
+		{
+			"name": "satkosb.github.io",
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"preempt_threads.h": "c",
+			"basic_threads.h": "c",
+			"types.h": "c",
+			"blockgroup_descriptor.h": "c",
+			"user.h": "c",
+			"sleeplock.h": "c",
+			"spinlock.h": "c"
+		}
+	}
+}
